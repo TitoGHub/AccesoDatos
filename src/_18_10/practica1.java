@@ -135,7 +135,6 @@ public class practica1 {
                     System.out.println("Se terminó de leer");
                     System.out.println("Continuar");
                     String continuar = sc2.nextLine();
-
                 } catch (ClassNotFoundException e) {
                     throw new RuntimeException(e);
                 }
